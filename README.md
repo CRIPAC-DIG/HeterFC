@@ -1,3 +1,18 @@
+# Heterogenous Graph Reasoning for Fact Checking over Texts and Tables
+
+![modelstruct](/Users/denodeno/Downloads/HeterFC/pics/modelstruct.png)
+
+Accepted by AAAI-24, check our paper at https://arxiv.org/abs/2402.13028
+If you find it useful, please consider citing:
+```
+@article{gong2024heterogeneous,
+  title={Heterogeneous Graph Reasoning for Fact Checking over Texts and Tables},
+  author={Haisong Gong and Weizhi Xu and Shu wu and Qiang Liu and Liang Wang},
+  journal={arXiv preprint arXiv:2402.13028},
+  year={2024}
+}
+```
+
 ## Preparation
 
 1. Download [Roberta pretrained model](https://huggingface.co/ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli) and put related files into directory `roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli/`
