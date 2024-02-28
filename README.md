@@ -1,6 +1,6 @@
 # Heterogenous Graph Reasoning for Fact Checking over Texts and Tables
 
-![modelstruct](/Users/denodeno/Downloads/HeterFC/pics/modelstruct.png)
+![modelstruct](pics/modelstruct.png)
 
 Accepted by AAAI-24, check our paper at https://arxiv.org/abs/2402.13028
 If you find it useful, please consider citing:
