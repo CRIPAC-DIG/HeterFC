@@ -5,10 +5,13 @@
 Accepted by AAAI-24, check our paper at https://arxiv.org/abs/2402.13028
 If you find it useful, please consider citing:
 ```
-@article{gong2024heterogeneous,
+@inproceedings{gong2024heterogeneous,
   title={Heterogeneous Graph Reasoning for Fact Checking over Texts and Tables},
-  author={Haisong Gong and Weizhi Xu and Shu wu and Qiang Liu and Liang Wang},
-  journal={arXiv preprint arXiv:2402.13028},
+  author={Gong, Haisong and Xu, Weizhi and Wu, Shu and Liu, Qiang and Wang, Liang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={1},
+  pages={100--108},
   year={2024}
 }
 ```
