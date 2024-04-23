@@ -2,9 +2,9 @@
 
 ![modelstruct](pics/modelstruct.png)
 
-This is the code for the AAAI-24 Paper:[Heterogenous Graph Reasoning for Fact Checking over Texts and Tables](https://arxiv.org/abs/2402.13028v1). We have implemented our methods in Pytorch.
+This is the code for the AAAI-24 Paper:[Heterogenous Graph Reasoning for Fact Checking over Texts and Tables](https://arxiv.org/abs/2402.13028v1).
 
-## Paper data and code
+## Usage
 
 1. Download [Roberta pretrained model](https://huggingface.co/ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli) and put related files into directory `roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli/`
 
@@ -12,8 +12,6 @@ This is the code for the AAAI-24 Paper:[Heterogenous Graph Reasoning for Fact Ch
 
 3. Follow [DCUF](https://aclanthology.org/2022.naacl-main.384)'s work and generate retrieved evidence files for the three splits. See [GitHub Link](https://github.com/lanlanabcd/dual_
 channel_feverous)  for more instruction on generating retrieved evidence file. After the retrieval process, the results should be three files named as `dev.combined.not_precomputed.p5.s5.t3.cells.jsonl`, `train.combined.not_precomputed.p5.s5.t3.cells.jsonl` and `test.combined.not_precomputed.p5.s5.t3.cells.jsonl`.
-
-## Usage
 
 4. Run `python train.py` to run the training process. It includes a preprocess procedure for the dataset splits and evaluation on dev split.
 
