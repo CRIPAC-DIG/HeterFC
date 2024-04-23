@@ -2,8 +2,9 @@
 
 ![modelstruct](pics/modelstruct.png)
 
-## Paper data and code
 This is the code for the AAAI-24 Paper:[Heterogenous Graph Reasoning for Fact Checking over Texts and Tables](https://arxiv.org/abs/2402.13028v1). We have implemented our methods in Pytorch.
+
+## Paper data and code
 
 1. Download [Roberta pretrained model](https://huggingface.co/ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli) and put related files into directory `roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli/`
 
