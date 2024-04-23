@@ -19,7 +19,10 @@ channel_feverous)  for more instruction on generating retrieved evidence file. A
 5. To evaluate the performance on test split, [online judge](https://eval.ai/web/challenges/challenge-page/1091/overview) is needed. You can also check our submission result on the online judge system. To generate file to submit run the following code: `python testresult.py; python generatesubmitfile.py --input_file tosubmit.csv`
 
 ## Requirements
-
+- python3
+- jsonlines
+- pytorch
+- torch-geometric
 
 ## Citation
 Please cite our paper if you use the code:
